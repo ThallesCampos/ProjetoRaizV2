@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+body {
+    background-color: #f2ebdc;
+}
+
+/* Código Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #1f8c8c;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: #f2ebdc;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Fim código header */
+
+/* Código class text */
+.text {
+    font-size: 1.4rem;
+}
+
+.text h2 {
+    color: #1f8c8c;
+    font-size: 2rem;
+    margin: 20px 40px;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-family: "Noto Sans", serif;
+    margin: 20px 40px;
+}
+/* Fim do código class text */
+
+/* Código class container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+/* Fim do código class container */
+
+/* Código img */
+img {
+    max-width: 600px;
+    height: auto;
+}
+/* Fim do código img */
+
+/* Código class values */
+.values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    flex-direction: row-reverse;
+}
+/* Fim do código values */
+
+/* Código class footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #1f8c8c;
+    color: #f2ebdc;
+}
+
+.logo-footer img {
+    width: 100px;
+    height: auto;
+}   
+
+.global-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}   
+
+.content-footer {
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.content-footer ul {
+    justify-content: space-between;
+    list-style: none;
+}   
+
+.content-footer ul li a {
+    color: #f2ebdc;
+    text-decoration: none;
+    padding: 10px;
+}

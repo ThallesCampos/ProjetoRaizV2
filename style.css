@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Dividindo a tela 50% para cada container de dentro */
+.container-left,
+.container-right {
+    flex: 1;
+}
+
+/* Container da logo */
+.content.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #f2ebdc;
+}
+
+.container-left img {
+    width: 50%;
+    height: auto;
+    /* linha a imagem ao centro */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Container do conteúdo */
+.container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1f8c8c;
+}
+
+.container-right h1 {
+    font-size: 2rem;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2ebdc;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.container-right ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-right ul li {
+    margin: 10px;
+}   
